@@ -3,3 +3,4 @@ name.basics.tsv
 title.basics.tsv
 *.pyc
 .DS_Store
+settings.json

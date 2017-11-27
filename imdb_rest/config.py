@@ -2,11 +2,11 @@ import os
 
 
 class Config(object):
-    DB_NAME = 'imdb-import'
-    DB_USER = 'luq'
-    DB_PASS = 'fourwordsalluppercase'
-    DB_HOST = 'localhost'
-    DB_PORT = '5432'
+    DB_NAME = ''
+    DB_USER = ''
+    DB_PASS = ''
+    DB_HOST = ''
+    DB_PORT = ''
 
 
 config = {

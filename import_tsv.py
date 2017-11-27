@@ -10,11 +10,11 @@ import io
 st = time.time()
 
 connection = psycopg2.connect(
-    host='localhost',
-    dbname='imdb-import',
-    port='5432',
-    user='luq',
-    password='fourwordsalluppercase'
+    host='',
+    dbname='',
+    port='',
+    user='',
+    password=''
 )
 cursor = connection.cursor()
 server_side_cursor = connection.cursor('names_to_titles', withhold=True)
